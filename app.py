@@ -21,5 +21,5 @@ def predict():
     return render_template('index.html', prediction_text='Expense = {}'.format(output))
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0',port=8080)
+    app.run(host='0.0.0.0',port=9229)
     #app.run(debug=True)
